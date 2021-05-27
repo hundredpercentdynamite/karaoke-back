@@ -30,7 +30,7 @@ app.get('/songs', async (req, res, next) => {
   }
 });
 
-app.get('/song/:id', async (req, res, next) => {
+app.get('/songs/:id', async (req, res, next) => {
   try {
     const song = await db.Song.findById(req.params.id);
     return success(res, song);
