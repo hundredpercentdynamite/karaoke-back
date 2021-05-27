@@ -5,7 +5,7 @@
   "repository": "https://github.com/volodyathehurricane/karaoke-back.git",
   "author": "Skukler <1910tim@mail.ru>",
   "scripts": {
-    "dev": "nodemon index,js"
+    "start": "node index.js"
   },
   "license": "MIT",
   "dependencies": {
@@ -14,5 +14,8 @@
     "express": "^4.17.1",
     "mongoose": "^5.12.7",
     "nodemon": "^2.0.7"
+  },
+  "engines": {
+    "node": "14.x"
   }
 }
